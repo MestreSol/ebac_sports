@@ -24,7 +24,7 @@ const ProdutosComponent = ({
   }
 
   return (
-    <>
+    <div>
       <S.Produtos>
         {produtos.map((produto) => (
           <Produto
@@ -36,7 +36,7 @@ const ProdutosComponent = ({
           />
         ))}
       </S.Produtos>
-    </>
+    </div>
   )
 }
 
